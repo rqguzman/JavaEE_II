@@ -3,7 +3,7 @@
     <type>org.netbeans.modules.j2ee.ejbjarproject</type>
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/j2ee-ejbjarproject/3">
-            <name>aula03</name>
+            <name>Aula03</name>
             <minimum-ant-version>1.6.5</minimum-ant-version>
             <included-library dirs="200">libs.javaee-api-6.0.classpath</included-library>
             <source-roots>
