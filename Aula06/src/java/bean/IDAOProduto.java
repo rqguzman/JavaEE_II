@@ -10,18 +10,12 @@ import javax.ejb.Local;
 @Local
 public interface IDAOProduto 
 {
-
-    /* Should methods in a Java interface be declared with or without a public access modifier?
-     * It is permitted, but discouraged as a matter of style,
-     * to redundantly specify the public and/or abstract modifier
-     * for a method declared in an interface. 
-     **/
     void cadastrar(Produto p);
     
-    public List<Produto> obterProdutos();
+    List<Produto> obterProdutos();
     
-    public void excluir(Produto p);
+    void excluir(Produto p);
     
-    public void alterar(Produto p);
+    void alterar(Produto p);
     
 }
